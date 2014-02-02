@@ -1,0 +1,7 @@
+@import "../normalizer";
+
+optgroup {
+    @extend %optgroup;
+
+    content : "@extend %optgroup;";
+}

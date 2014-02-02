@@ -1,0 +1,1 @@
+input[type="checkbox"]{box-sizing:border-box;padding:0}/*! EON */input[type="checkbox"]{content:"@extend %input[type=" checkbox "];"}

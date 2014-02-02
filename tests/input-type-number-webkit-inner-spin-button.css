@@ -1,0 +1,1 @@
+input[type="number"]::-webkit-inner-spin-button{height:auto}/*! EON */input[type="number"]::-webkit-inner-spin-button{content:"@extend %input[type=" number "]::-webkit-inner-spin-button;"}

@@ -1,0 +1,7 @@
+@import "../normalizer";
+
+input[type="reset"] {
+    @extend %input[type="reset"];
+
+    content : "@extend %input[type="reset"];";
+}

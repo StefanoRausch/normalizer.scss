@@ -1,0 +1,7 @@
+@import "../normalizer";
+
+input {
+    @extend %input;
+
+    content : "@extend %input;";
+}

@@ -1,0 +1,7 @@
+@import "../normalizer";
+
+strong {
+    @extend %strong;
+
+    content : "@extend %strong;";
+}

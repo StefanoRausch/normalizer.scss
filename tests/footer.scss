@@ -1,0 +1,7 @@
+@import "../normalizer";
+
+footer {
+    @extend %footer;
+
+    content : "@extend %footer;";
+}

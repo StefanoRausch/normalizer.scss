@@ -1,0 +1,7 @@
+@import "../normalizer";
+
+input[type="radio"] {
+    @extend %input[type="radio"];
+
+    content : "@extend %input[type="radio"];";
+}

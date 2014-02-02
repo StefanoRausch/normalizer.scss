@@ -1,0 +1,7 @@
+@import "../normalizer";
+
+input[type="checkbox"] {
+    @extend %input[type="checkbox"];
+
+    content : "@extend %input[type="checkbox"];";
+}

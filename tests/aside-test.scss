@@ -1,0 +1,7 @@
+@import "../normalizer";
+
+aside {
+    @extend %aside;
+
+    content : "@extend %aside;";
+}

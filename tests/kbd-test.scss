@@ -1,0 +1,7 @@
+@import "../normalizer";
+
+kbd {
+    @extend %kbd;
+
+    content : "@extend %kbd;";
+}

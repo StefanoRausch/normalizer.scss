@@ -1,0 +1,10 @@
+$normalizer-h1-font-size : 18px;
+$normalizer-h1-margin    : 20px 0;
+
+@import "../normalizer";
+
+h1 {
+    @extend %h1;
+
+    content : "@extend %h1;";
+}

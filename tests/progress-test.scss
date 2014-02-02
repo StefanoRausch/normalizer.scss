@@ -1,0 +1,7 @@
+@import "../normalizer";
+
+progress {
+    @extend %progress;
+
+    content : "@extend %progress;";
+}

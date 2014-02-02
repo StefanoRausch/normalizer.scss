@@ -1,0 +1,7 @@
+@import "../normalizer";
+
+mark {
+    @extend %mark;
+
+    content : "@extend %mark;";
+}

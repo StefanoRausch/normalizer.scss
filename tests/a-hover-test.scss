@@ -1,0 +1,7 @@
+@import "../normalizer";
+
+a:hover {
+    @extend %a:hover;
+
+    content : "@extend %a:hover;";
+}

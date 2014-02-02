@@ -1,0 +1,7 @@
+@import "../normalizer";
+
+a:active {
+    @extend %a:active;
+
+    content : "@extend %a:active;";
+}

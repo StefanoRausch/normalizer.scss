@@ -1,0 +1,7 @@
+@import "../normalizer";
+
+samp {
+    @extend %samp;
+
+    content : "@extend %samp;";
+}

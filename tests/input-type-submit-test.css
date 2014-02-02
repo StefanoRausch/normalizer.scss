@@ -1,0 +1,1 @@
+input[type="submit"]{-webkit-appearance:button;cursor:pointer}/*! EON */input[type="submit"]{content:"@extend %input[type=" submit "];"}

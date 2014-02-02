@@ -1,0 +1,7 @@
+@import "../normalizer";
+
+html {
+    @extend %html;
+
+    content : "@extend %html;";
+}

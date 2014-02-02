@@ -1,0 +1,7 @@
+@import "../normalizer";
+
+input[type="submit"] {
+    @extend %input[type="submit"];
+
+    content : "@extend %input[type="submit"];";
+}

@@ -1,0 +1,1 @@
+input::-moz-focus-inner{border:0;padding:0}/*! EON */input::-moz-focus-inner{content:"@extend %input::-moz-focus-inner;"}

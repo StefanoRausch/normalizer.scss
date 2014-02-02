@@ -1,0 +1,1 @@
+input[type="search"]::-webkit-search-cancel-button{-webkit-appearance:none}/*! EON */input[type="search"]::-webkit-search-cancel-button{content:"@extend %input[type=" search "]::-webkit-search-cancel-button;"}

@@ -1,0 +1,7 @@
+@import "../normalizer";
+
+button::-moz-focus-inner {
+    @extend %button::-moz-focus-inner;
+
+    content : "@extend %button::-moz-focus-inner;";
+}

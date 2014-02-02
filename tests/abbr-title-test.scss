@@ -1,0 +1,7 @@
+@import "../normalizer";
+
+abbr[title] {
+    @extend %abbr[title];
+
+    content : "@extend %abbr[title];";
+}

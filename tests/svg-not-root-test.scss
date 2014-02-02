@@ -1,0 +1,7 @@
+@import "../normalizer";
+
+svg:not(:root) {
+    @extend %svg:not(:root);
+
+    content : "@extend %svg:not(:root);";
+}

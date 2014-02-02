@@ -1,0 +1,7 @@
+@import "../normalizer";
+
+hr {
+    @extend %hr;
+
+    content : "@extend %hr;";
+}

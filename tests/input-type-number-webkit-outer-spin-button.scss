@@ -1,0 +1,7 @@
+@import "../normalizer";
+
+input[type="number"]::-webkit-outer-spin-button {
+    @extend %input[type="number"]::-webkit-outer-spin-button;
+
+    content : "@extend %input[type="number"]::-webkit-outer-spin-button;";
+}

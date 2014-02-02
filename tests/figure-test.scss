@@ -1,0 +1,7 @@
+@import "../normalizer";
+
+figure {
+    @extend %figure;
+
+    content : "@extend %figure;";
+}

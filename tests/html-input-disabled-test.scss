@@ -1,0 +1,11 @@
+@import "../normalizer";
+
+html {
+    @extend %html;
+}
+
+html input[disabled] {
+    @extend %input[disabled];
+
+    content : "@extend %input[disabled];";
+}

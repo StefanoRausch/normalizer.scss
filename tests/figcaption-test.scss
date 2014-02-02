@@ -1,0 +1,7 @@
+@import "../normalizer";
+
+figcaption {
+    @extend %figcaption;
+
+    content : "@extend %figcaption;";
+}

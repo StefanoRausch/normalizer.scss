@@ -1,0 +1,7 @@
+@import "../normalizer";
+
+fieldset {
+    @extend %fieldset;
+
+    content : "@extend %fieldset;";
+}

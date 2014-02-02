@@ -1,0 +1,7 @@
+@import "../normalizer";
+
+legend {
+    @extend %legend;
+
+    content : "@extend %legend;";
+}

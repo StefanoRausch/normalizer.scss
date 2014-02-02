@@ -1,0 +1,7 @@
+@import "../normalizer";
+
+input[type="search"]::-webkit-search-decoration {
+    @extend %input[type="search"]::-webkit-search-decoration;
+
+    content : "@extend %input[type="search"]::-webkit-search-decoration;";
+}

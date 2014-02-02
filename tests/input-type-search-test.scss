@@ -1,0 +1,7 @@
+@import "../normalizer";
+
+input[type="search"] {
+    @extend %input[type="search"];
+
+    content : "@extend %input[type="search"];";
+}

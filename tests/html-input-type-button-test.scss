@@ -1,0 +1,11 @@
+@import "../normalizer";
+
+html {
+    @extend %html;
+}
+
+html input[type="button"] {
+    @extend %input[type="button"];
+
+    content : "@extend %input[type="button"];";
+}

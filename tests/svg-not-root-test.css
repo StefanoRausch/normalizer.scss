@@ -1,0 +1,1 @@
+svg:not(:root){overflow:hidden}/*! EON */svg:not(:root){content:"@extend %svg:not(:root);"}

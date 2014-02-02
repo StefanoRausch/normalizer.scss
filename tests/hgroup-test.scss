@@ -1,0 +1,7 @@
+@import "../normalizer";
+
+hgroup {
+    @extend %hgroup;
+
+    content : "@extend %hgroup;";
+}

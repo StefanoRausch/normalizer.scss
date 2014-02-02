@@ -1,0 +1,7 @@
+@import "../normalizer";
+
+textarea {
+    @extend %textarea;
+
+    content : "@extend %textarea;";
+}

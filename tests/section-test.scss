@@ -1,0 +1,7 @@
+@import "../normalizer";
+
+section {
+    @extend %section;
+
+    content : "@extend %section;";
+}

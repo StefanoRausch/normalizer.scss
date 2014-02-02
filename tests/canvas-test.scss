@@ -1,0 +1,7 @@
+@import "../normalizer";
+
+canvas {
+    @extend %canvas;
+
+    content : "@extend %canvas;";
+}

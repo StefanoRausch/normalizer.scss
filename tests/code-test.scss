@@ -1,0 +1,7 @@
+@import "../normalizer";
+
+code {
+    @extend %code;
+
+    content : "@extend %code;";
+}

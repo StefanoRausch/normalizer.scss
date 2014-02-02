@@ -1,0 +1,7 @@
+@import "../normalizer";
+
+img {
+    @extend %img;
+
+    content : "@extend %img;";
+}

@@ -1,0 +1,7 @@
+@import "../normalizer";
+
+audio:not([controls]) {
+    @extend %audio:not([controls]);
+
+    content : "@extend %audio:not([controls]);";
+}

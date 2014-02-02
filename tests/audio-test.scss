@@ -1,0 +1,7 @@
+@import "../normalizer";
+
+audio {
+    @extend %audio;
+
+    content : "@extend %audio;";
+}

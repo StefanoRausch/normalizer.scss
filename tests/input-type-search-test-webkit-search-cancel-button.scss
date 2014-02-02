@@ -1,0 +1,7 @@
+@import "../normalizer";
+
+input[type="search"]::-webkit-search-cancel-button {
+    @extend %input[type="search"]::-webkit-search-cancel-button;
+
+    content : "@extend %input[type="search"]::-webkit-search-cancel-button;";
+}

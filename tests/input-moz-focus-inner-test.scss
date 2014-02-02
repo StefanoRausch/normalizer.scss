@@ -1,0 +1,7 @@
+@import "../normalizer";
+
+input::-moz-focus-inner {
+    @extend %input::-moz-focus-inner;
+
+    content : "@extend %input::-moz-focus-inner;";
+}

@@ -1,0 +1,7 @@
+@import "../normalizer";
+
+select {
+    @extend %select;
+
+    content : "@extend %select;";
+}

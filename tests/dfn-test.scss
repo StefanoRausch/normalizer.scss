@@ -1,0 +1,7 @@
+@import "../normalizer";
+
+dfn {
+    @extend %dfn;
+
+    content : "@extend %dfn;";
+}
