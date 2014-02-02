@@ -1,5 +1,5 @@
-File:      _normalizer.scss.md
-License:   MIT — http://opensource.org/licenses/MIT
+File:      _normalizer.scss.md  
+License:   MIT — http://opensource.org/licenses/MIT  
 Copyright: ( C ) 2014 Stefano F. Rausch < stefano@rausch-e.net >
 
 > **normalizer.scss** : The [normalize.css][] Library for [Sass][]  
