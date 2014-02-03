@@ -4,6 +4,8 @@ The [normalize.css][] library for [Sass][].
 
 ## Introduction
 
+<small>**In a Nutshell** : The library allows you to import only the rules of the ( normalised ) selectors used.</small>
+
 There are many attempts to convert [normalize.css][] to `Sass` to be found on GitHub — do a [search](https://github.com/search?q=normalize&source=c) and you will find simple ones to quite nice ( complex ) implementations for reducing the rules load.
 
 Trying out the different approaches available I did not find an elegant library suiting me — until today!
@@ -18,7 +20,7 @@ Every `selector` in [normalize.css][] is a `%selector` in normalizer.scss.
 
 One caveat : the `[hidden]` attribute can not be converted to a placeholder selector and hence I have to revert to the standard approach for inclusion / exclusion of this attribute in the final `CSS` output. An acceptable trade off.
 
-Have a look at the [Literate Source Code][] [version](_normalizer.scss.md) — watch out for the hidden gems — as well as the resulting clean `Sass` counterpart. For the more sceptical guys : check out the ( simple ) test files and let me know, if you find any flaws.
+Have a look at the [Literate Source Code][] [version](_normalizer.scss.md) as well as at the resulting clean `Sass` counterpart. For the more sceptical guys : check out the ( simple ) test files and let me know, if you find any flaws.
 
 Happy Normalizing!
 
