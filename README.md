@@ -10,7 +10,7 @@ There are many attempts to convert [normalize.css][] to `Sass` to be found on Gi
 
 Trying out the different approaches available I did not find an elegant library suiting me — until today!
 
-<small>**Food for Thoughts** : Every day I learn new ways how to use `Sass` and I am relieved that sometimes the most simple solution is the best one. Instead of trying to decompose [normalize.css][] and to rebuild it, why not just modify and enhance the library as little as possible to achieve the goal?</small>
+<small>**Food for Thoughts** : Instead of trying to decompose [normalize.css][] and to rebuild it, why not just modify and enhance the library as little as possible to achieve the goal?</small>
 
 ## Meet the Placeholder Selectors
 
@@ -18,7 +18,7 @@ Every `selector` in [normalize.css][] is a `%selector` in normalizer.scss.
 
 > With this approach you only need to `@extend` the placeholder in discussion. Sweet!
 
-One caveat : the `[hidden]` attribute can not be converted to a placeholder selector and hence I have to revert to the standard approach for inclusion / exclusion of this attribute in the final `CSS` output. An acceptable trade off.
+<small>Caveat : the `[hidden]` attribute can not be converted to a placeholder selector and hence I have to revert to the standard approach for inclusion / exclusion of this attribute in the final `CSS` output. An acceptable trade off.</small>
 
 Have a look at the [Literate Source Code][] [version](_normalizer.scss.md) as well as at the resulting clean `Sass` counterpart. For the more sceptical guys : check out the ( simple ) test files and let me know, if you find any flaws.
 
