@@ -1,8 +1,8 @@
-File:      test/input-type-search-webkit-search-decoration-test.scss.md
-License:   MIT — http://opensource.org/licenses/MIT
+File:      test/input-type-search-webkit-search-decoration-test.scss.md  
+License:   MIT — http://opensource.org/licenses/MIT  
 Copyright: ( C ) 2014 Stefano F. Rausch < stefano@rausch-e.net >
 
-> **Input Type Search Webkit Search Decoration** : Single Selector Test  
+> **Input Type Search Webkit Search Decoration** : Single Selector Test  
 > <small> see [normalizer.scss](../_normalizer.scss.md) </smalll>
 
     @import "../normalizer";
