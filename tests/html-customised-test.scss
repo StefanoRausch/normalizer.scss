@@ -1,9 +1,0 @@
-$normalizer-html-font-family : "Helvetica Neue", Helvetica, sans-serif;
-
-@import "../normalizer";
-
-html {
-    @extend %html;
-
-    content : "@extend %html;";
-}

@@ -1,11 +1,4 @@
-$normalizer-html-font-family : sans-serif !default;
-
 $normalizer-attribute-hidden : false !default;
-
-$normalizer-h1-font-size     : 2em !default;
-$normalizer-h1-margin        : 0.67em 0 !default;
-
-$normalizer-small-font-size  : 80% !default;
 
 /**
  * 1. Set default font family to sans-serif.
@@ -14,7 +7,7 @@ $normalizer-small-font-size  : 80% !default;
  */
 
 %html {
-  font-family: $normalizer-html-font-family; /* 1 */
+  font-family: sans-serif; /* 1 */
   -ms-text-size-adjust: 100%; /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
 }
@@ -26,9 +19,6 @@ $normalizer-small-font-size  : 80% !default;
 %body {
   margin: 0;
 }
-
-/* HTML5 display definitions
-   ========================================================================== */
 
 /**
  * Correct `block` display not defined in IE 8/9.
@@ -88,9 +78,6 @@ $normalizer-small-font-size  : 80% !default;
     }
 }
 
-/* Links
-   ========================================================================== */
-
 /**
  * Remove the gray background color from active links in IE 10.
  */
@@ -107,9 +94,6 @@ $normalizer-small-font-size  : 80% !default;
 %a:hover {
   outline: 0;
 }
-
-/* Text-level semantics
-   ========================================================================== */
 
 /**
  * Address styling not present in IE 8/9, Safari 5, and Chrome.
@@ -142,8 +126,8 @@ $normalizer-small-font-size  : 80% !default;
  */
 
 %h1 {
-  font-size: $normalizer-h1-font-size;
-  margin: $normalizer-h1-margin;
+  font-size: 2em;
+  margin: 0.67em 0;
 }
 
 /**
@@ -160,7 +144,7 @@ $normalizer-small-font-size  : 80% !default;
  */
 
 %small {
-  font-size: $normalizer-small-font-size;
+  font-size: 80%;
 }
 
 /**
@@ -183,9 +167,6 @@ $normalizer-small-font-size  : 80% !default;
   bottom: -0.25em;
 }
 
-/* Embedded content
-   ========================================================================== */
-
 /**
  * Remove border when inside `a` element in IE 8/9.
  */
@@ -201,9 +182,6 @@ $normalizer-small-font-size  : 80% !default;
 %svg:not(:root) {
   overflow: hidden;
 }
-
-/* Grouping content
-   ========================================================================== */
 
 /**
  * Address margin not present in IE 8/9 and Safari 5.
@@ -243,9 +221,6 @@ $normalizer-small-font-size  : 80% !default;
   font-size: 1em;
 }
 
-/* Forms
-   ========================================================================== */
-
 /**
  * Known limitation: by default, Chrome and Safari on OS X allow very limited
  * styling of `select`, unless a `border` property is set.
@@ -279,7 +254,7 @@ $normalizer-small-font-size  : 80% !default;
 /**
  * Address inconsistent `text-transform` inheritance for `button` and `select`.
  * All other form control elements do not inherit `text-transform` values.
- * Correct `button` style inheritance in Firefox, IE 8+, and Opera
+ * Correct `button` style inheritance in Firefox, IE 8+, and Opera.
  * Correct `select` style inheritance in Firefox.
  */
 
@@ -299,7 +274,6 @@ $normalizer-small-font-size  : 80% !default;
 %button,
 
 %html %input[type="button"], /* 1 */
-
 %input[type="reset"],
 %input[type="submit"] {
   -webkit-appearance: button; /* 2 */
@@ -421,9 +395,6 @@ $normalizer-small-font-size  : 80% !default;
   font-weight: bold;
 }
 
-/* Tables
-   ========================================================================== */
-
 /**
  * Remove most spacing between table cells.
  */
@@ -438,4 +409,4 @@ $normalizer-small-font-size  : 80% !default;
   padding: 0;
 }
 
-/*! EON */ // End of normalizer.scss
+/*! EON */

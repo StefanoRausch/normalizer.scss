@@ -32,6 +32,13 @@ Based on a work at <https://github.com/StefanoRausch/normalizer.scss>.
 
 ## Changelog
 
+### 4.0.0-alpha.1 : 2014-02-07
+
+- Removed the additional customisation features `$normalizer-html-font-family`, `$normalizer-h1-font-size`, `$normalizer-h1-margin` and `$normalizer-small-font-size` to comply with the primary goal of normalizer.scss to allow the reduction of the rules load ( which already is minimal ) in the final `CSS` output file.
+- Removed the respective customised tests.
+
+- Updated the documentation to reduce duplication of the headers.
+
 ### 3.0.0 : 2014-02-03
 
 - Initial commit.

@@ -1,9 +1,0 @@
-$normalizer-small-font-size : 16px;
-
-@import "../normalizer";
-
-small {
-    @extend %small;
-
-    content : "@extend %small;";
-}
