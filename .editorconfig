@@ -7,7 +7,7 @@ root = true # Stop searching for an EditorConfig.org file to apply.
 charset = utf-8
 
 indent_style = tab
-# indent_size = 4
+indent_size = 4
 
 trim_trailing_whitespace = false
 
